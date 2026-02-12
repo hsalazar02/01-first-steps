@@ -1,3 +1,4 @@
+import Link from 'next/link';
 
 
 export default function HomePage() {
@@ -6,6 +7,7 @@ export default function HomePage() {
       <main className="flex flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
 
         <span className="text-5xl">Hola Mundo</span>
+        <Link rel="stylesheet" href="/about" >About Page </Link>
       </main>
     </div>
   );
